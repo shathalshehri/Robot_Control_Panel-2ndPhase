@@ -8,6 +8,7 @@ This project contains files necessary for controlling a robot via a web interfac
 - `retrieve.php`: PHP script for handling and logging directional commands.
 - `Robot.sql`: SQL file for creating the necessary database table.
 - `style.css`: CSS file for styling the web interface.
+- `Http_request_in_ESP32.ino`: Arduino code for setting up the ESP32 to send HTTP GET requests and control an LED based on server responses.
 
 ## Requirements
 
@@ -45,6 +46,9 @@ xampp
 ### Accessing the Web Interface
 
 1. Open your web browser and navigate to `http://localhost/RobotProj/page.php`.
+
+You can see how the interface appears when accessed from a web browser in the screenshot below:
+    ![Web Interface](https://github.com/shathalshehri/Robot_Control_Panel-2ndPhase/raw/main/RobotMovementController-DesktopInterface.png)
 
 ### Setting Up the ESP32 with Arduino IDE
 
