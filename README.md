@@ -74,23 +74,24 @@ You can see how the interface appears when accessed from a web browser in the sc
   
 4. **Creating and Uploading the Code:**
 
-4.1 **Create a New File**: In the Arduino IDE, create a file named `Http_request_in_ESP32.ino`.
+    1. **Create a New File**: In the Arduino IDE, create a file named `Http_request_in_ESP32.ino`.
 
-4.2 **Code Overview**:
-    - **Includes Required Libraries**: `WiFi.h` and `HTTPClient.h`.
-    - **Connects to WiFi**: Uses provided SSID and password.
-    - **Sends HTTP Requests**: Periodically sends GET requests to the specified URL.
-    - **Controls LED**: Turns the LED on GPIO 25 based on the server's response ("F" turns it on, otherwise off).
+    2. **Code Overview**:
+        - **Includes Required Libraries**: `WiFi.h` and `HTTPClient.h`.
+        - **Connects to WiFi**: Uses provided SSID and password.
+        - **Sends HTTP Requests**: Periodically sends GET requests to the specified URL.
+        - **Controls LED**: Turns the LED on GPIO 25 based on the server's response ("F" turns it on, otherwise off).
 
-4.3 **Replace Placeholders**:
-    - Update `your_SSID` and `your_PASSWORD` with your WiFi credentials.
-    - Replace `your_server_ip` and `your_path` with your server’s IP address and path to the `retrieve.php` file.
+    3. **Replace Placeholders**:
+        - Update `your_SSID` and `your_PASSWORD` with your WiFi credentials.
+        - Replace `your_server_ip` and `your_path` with your server’s IP address and path to the `retrieve.php` file.
 
-4.4 **Connect and Upload**:
-    - Connect an LED to GPIO 25 on the ESP32.
-    - Upload the code to the ESP32.
+    4. **Connect and Upload**:
+        - Connect an LED to GPIO 25 on the ESP32.
+        - Upload the code to the ESP32.
 
-For the complete code, refer to the [`Http_request_in_ESP32.ino`](https://github.com/shathalshehri/Robot_Control_Panel-2ndPhase/blob/main/Http_request_in_ESP32.ino) file.
+    For the complete code, refer to the [`Http_request_in_ESP32.ino`](https://github.com/shathalshehri/Robot_Control_Panel-2ndPhase/blob/main/Http_request_in_ESP32.ino) file.
+
 
 
 ## Hardware Requirements
@@ -117,29 +118,25 @@ For the complete code, refer to the [`Http_request_in_ESP32.ino`](https://github
 ```sh
 ipconfig getifaddr en0
 ```
+
 ## Demonstrations
 
 - **Forward Button Interaction**: Watch the GIF below to see how pressing the `F` button on the web interface triggers the transition from `page.php` to `retrieve.php`:
-  
+
     ![Forward Button Interaction](https://github.com/shathalshehri/Robot_Control_Panel-2ndPhase/raw/main/1-Clicking-the-ForwardButton.gif)
 
-- **LED Activation**: Watch the GIF below to see the LED's response when the Right button for example is clicked, which demonstrates the LED turning off:
-  
+- **LED Activation**: Watch the GIF below to see the LED's response when the Right button is clicked, which demonstrates the LED turning off:
+
     ![LED Activation](https://github.com/shathalshehri/Robot_Control_Panel-2ndPhase/raw/main/2-AfterClickingF.gif)
 
-- **Effect of Other Buttons**: Watch the GIF below to see the effect of clicking the `Stop`, `Left`, `Right`, and `Backward` buttons on the web interface, all of which will turn the LED off:
-  
+- **Effect of Other Buttons**: Watch the GIF below to see the effect of clicking the `Stop`, `Left`, `Right`, and `Backward` buttons on the web interface, all of which turn the LED off:
+
     ![Other Buttons Effect](https://github.com/shathalshehri/Robot_Control_Panel-2ndPhase/raw/main/3-AnyOtherButtons.gif)
 
 - **Serial Monitor Output and Database Update**: Watch the GIF below to see the output on the serial monitor when clicking the `Stop` button and the database update reflecting 'S' added to the table:
-  
+
     ![Serial Monitor and Database Update](https://github.com/shathalshehri/Robot_Control_Panel-2ndPhase/raw/main/4-SerialMonitorOP-DB.gif)
 
 - **Clicking Any Other Button Result**: Watch the GIF below to see the result of clicking the `Right` button, which turns the LED off:
-  
+
     ![Clicking Any Other Button Result](https://github.com/shathalshehri/Robot_Control_Panel-2ndPhase/raw/main/5-ClickingAnyOtherButtonResult.gif)
-
-
-
-
-
