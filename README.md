@@ -171,27 +171,33 @@ xampp
 - **Robot.sql:** Creates the `remote` table in the `Robot` database with fields for storing command data.
 - **style.css:** Provides basic styling for the web interface.
 - **Http_request_in_ESP32.ino:** Connects the ESP32 to WiFi, sends HTTP GET requests to the server, and controls an LED based on the server's response. 
-
-## Demonstrations
-
-- **Forward Button Interaction**: Watch the GIF below to see how pressing the `F` button on the web interface triggers the transition from `page.php` to `retrieve.php`:
-    ![Forward Button Interaction](https://github.com/shathalshehri/Robot_Control_Panel-2ndPhase/raw/main/1-Clicking-the-ForwardButton.gif)
-
-- **LED Activation**: Watch the GIF below to see how the LED turns on after clicking the "Forward" button:
-    ![LED Activation](https://github.com/shathalshehri/Robot_Control_Panel-2ndPhase/raw/main/2-AfterClickingF.gif)
-
-- **Effect of Other Buttons**: Watch the GIF below to see the effect of clicking the `Stop`, `Left`, `Right`, and `Backward` buttons on the web interface, all of which will turn the LED off:
-    ![Other Buttons Effect](https://github.com/shathalshehri/Robot_Control_Panel-2ndPhase/raw/main/3-AnyOtherButtons.gif)
-
-- **Serial Monitor Output and Database Update**: Watch the GIF below to see the output on the serial monitor when clicking the `Stop` button and the database update reflecting 'S' added to the table:
-    ![Serial Monitor and Database Update](https://github.com/shathalshehri/Robot_Control_Panel-2ndPhase/raw/main/4-SerialMonitorOP-DB.gif)
-
-- **Clicking Any Other Button Result**: Watch the GIF below to see the result of clicking the `Right` button, which turns the LED off:
-    ![Clicking Any Other Button Result](https://github.com/shathalshehri/Robot_Control_Panel-2ndPhase/raw/main/5-ClickingAnyOtherButtonResult.gif)
-
-
 - To obtain the IP address of your server on macOS, use the command:
 ```sh
 ipconfig getifaddr en0
+```
+## Demonstrations
+
+- **Forward Button Interaction**: Watch the GIF below to see how pressing the `F` button on the web interface triggers the transition from `page.php` to `retrieve.php`:
+  
+    ![Forward Button Interaction](https://github.com/shathalshehri/Robot_Control_Panel-2ndPhase/raw/main/1-Clicking-the-ForwardButton.gif)
+
+- **LED Activation**: Watch the GIF below to see the LED's response when the Right button for example is clicked, which demonstrates the LED turning off:
+  
+    ![LED Activation](https://github.com/shathalshehri/Robot_Control_Panel-2ndPhase/raw/main/2-AfterClickingF.gif)
+
+- **Effect of Other Buttons**: Watch the GIF below to see the effect of clicking the `Stop`, `Left`, `Right`, and `Backward` buttons on the web interface, all of which will turn the LED off:
+  
+    ![Other Buttons Effect](https://github.com/shathalshehri/Robot_Control_Panel-2ndPhase/raw/main/3-AnyOtherButtons.gif)
+
+- **Serial Monitor Output and Database Update**: Watch the GIF below to see the output on the serial monitor when clicking the `Stop` button and the database update reflecting 'S' added to the table:
+  
+    ![Serial Monitor and Database Update](https://github.com/shathalshehri/Robot_Control_Panel-2ndPhase/raw/main/4-SerialMonitorOP-DB.gif)
+
+- **Clicking Any Other Button Result**: Watch the GIF below to see the result of clicking the `Right` button, which turns the LED off:
+  
+    ![Clicking Any Other Button Result](https://github.com/shathalshehri/Robot_Control_Panel-2ndPhase/raw/main/5-ClickingAnyOtherButtonResult.gif)
+
+
+
 
 
