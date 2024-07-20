@@ -34,6 +34,7 @@ This project contains files necessary for controlling a robot via a web interfac
 
 1. Place the `RobotProj` folder inside the `htdocs` directory of your XAMPP installation.
 2. The directory structure should look like this:
+   
 xampp
 └── htdocs
 └── RobotProj
