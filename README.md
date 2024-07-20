@@ -162,8 +162,7 @@ xampp
 
 - Use the web interface to control the robot by sending directional commands.
   
-- **Forward Button Interaction**: Watch the video below to see how pressing the `F` button on the web interface triggers the transition from `page.php` to `retrieve.php`:
-[![Forward Button Interaction](https://img.youtube.com/vi/1-Clicking-the-ForwardButton.mp4/0.jpg)](https://github.com/shathalshehri/Robot_Control_Panel-2ndPhase/blob/main/1-Clicking-the-ForwardButton.MP4) 
+  - Forward Button Interaction**: Watch the video below to see how pressing the `F` button on the web interface triggers the transition from `page.php` to `retrieve.php`: [![Forward Button Interaction](https://img.youtube.com/vi/1-Clicking-the-ForwardButton.mp4/0.jpg)](https://github.com/shathalshehri/Robot_Control_Panel-2ndPhase/blob/main/1-Clicking-the-ForwardButton.MP4) 
 - The commands will be logged into the `remote` table in the `Robot` database.
 - The ESP32 will send HTTP GET requests to the server and control the LED based on the response.
 
