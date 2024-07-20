@@ -1,4 +1,4 @@
-# Robot Control Panel ˚ ༘♡ ⋆｡˚˚ ༘♡ ⋆｡˚˚ ༘♡ ⋆｡˚
+# Robot Control Panel 
 
 This project contains files necessary for controlling a robot via a web interface. The project uses PHP for server-side logic, SQL for database management, and CSS for styling. The web interface is designed to send directional commands to a robot and log them into a database.
 
