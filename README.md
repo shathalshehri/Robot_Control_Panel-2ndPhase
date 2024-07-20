@@ -36,13 +36,20 @@ This project contains files necessary for controlling a robot via a web interfac
 2. The directory structure should look like this:
    
 xampp/
-└── htdocs/
-    └── RobotProj/
-        ├── page.php
-        ├── retrieve.php
-        ├── Robot.sql
-        ├── style.css
-        └── favicon.png
+
+ └── htdocs/
+   
+     └── RobotProj/
+       
+         ├── page.php
+        
+         ├── retrieve.php
+        
+         ├── Robot.sql
+        
+         ├── style.css
+        
+         └── favicon.png
 
 
 
